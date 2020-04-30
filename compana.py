@@ -26,4 +26,5 @@ for line in climate_data:
             kelvin = temp_conversion.fahr_to_kelvin(fahr)
 
             print(str(celsius)+", "+str(kelvin))
-			
+
+# TODO(chris-pooley): Add call to process rainfall
